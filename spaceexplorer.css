@@ -1,0 +1,67 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #395b8e;
+    color: cadetblue;
+}
+
+h1 {
+    color: blue;
+}
+
+a {
+
+    color: #8B949E;
+
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: cornflowerblue;
+}
+
+ul>li {
+    font-weight: bold;
+}
+
+/* Sibling Selector */
+
+h1+p {
+
+    background-color: #161B22;
+
+    padding: 10px;
+
+    border-radius: 5px;
+
+}
+
+ul li:hover {
+    color: darkcyan;
+}
+
+ul li:nth-child(3) {
+    background-color: #161B22;
+}
+
+p:not(:first-of-type) {
+    text-decoration: underline;
+}
+
+ul li::before {
+    content: "🚀";
+}
+
+a::after {
+    content: "🌌";
+}
+
+/* ::first-letter Pseudo-element */
+
+p::first-letter {
+
+    font-size: 200%;
+
+    color: #FF7B72;
+
+}
